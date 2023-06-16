@@ -255,49 +255,6 @@ ggplot(combined_df, aes(x = distress_category, y = mean_diff)) +
   theme_bw()
 
 ```
-```{r}
-# Define the linear regression model
-model <- lm(financial_group ~ physical_distress + mental_distress + environmental_distress + financial_distress, data = data_clean_norm)
-
-# Print the summary of the model
-summary(model)
-
-```
-
-```{r}
-# Define the linear regression model
-model <- lm(health_group ~ physical_distress + mental_distress + environmental_distress + financial_distress, data = data_clean_norm)
-
-# Print the summary of the model
-summary(model)
-
-```
-
-```{r}
-# Define the linear regression model
-model <- lm(service_group ~ physical_distress + mental_distress + environmental_distress + financial_distress, data = data_clean_norm)
-
-# Print the summary of the model
-summary(model)
-
-```
-
-```{r}
-# Define the linear regression model
-model <- lm(education_group ~ physical_distress + mental_distress + environmental_distress + financial_distress, data = data_clean_norm)
-
-# Print the summary of the model
-summary(model)
-
-```
-```{r}
-# Define the linear regression model
-model <- lm(social_group ~ physical_distress + mental_distress + environmental_distress + financial_distress, data = data_clean_norm)
-
-# Print the summary of the model
-summary(model)
-
-```
 
 statistics:
 ```{r}
