@@ -1,6 +1,5 @@
 # SISE2601 Project Data Description
 
-## Team name: Dorin, Netta, and Yuval
 
 ## Description
 
